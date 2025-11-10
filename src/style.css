@@ -1,18 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle&display=swap");
 @import "tailwindcss";
 
+@theme {
+  --font-dongle: "Dongle", sans-serif;
+}
+
 :root {
-  --bg: #0b0d12;
-  --fg: #e7ebf3;
+  --bg: #232736;
+  --fg: #ffffff;
 }
 html,
 body,
 #root {
   height: 100%;
+  user-select: none;
 }
 body {
   background: var(--bg);
   color: var(--fg);
 }
 a {
-  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
