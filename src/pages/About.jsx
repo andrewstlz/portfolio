@@ -7,8 +7,8 @@ const EXPERIENCE = [
     location: "Salt Lake City, UT",
     dates: "May 2026 – Present",
     points: [
-      "Building a VLM-based intent-to-action mapping system for agentic computer control by BCI users, designing the task schema, model architecture, and command-execution UI, reaching 92% task accuracy and sub-3s latency across 17 real-world control tasks.",
-      "Developing an evaluation framework for BCI intent-mapping models measuring task success, latency, and robustness, supporting autonomous device control from intracranial neural signals.",
+      "Built a VLM-based intent-to-action mapping system for agentic computer control by BCI users, designing the task schema, model architecture, and command-execution UI, reaching 92% task accuracy and sub-3s latency across 17 real-world control tasks.",
+      "Developed an evaluation framework for BCI intent-mapping models measuring task success, latency, and robustness, supporting autonomous device control from intracranial neural signals.",
     ],
   },
   {
@@ -28,7 +28,7 @@ const EXPERIENCE = [
     location: "Los Angeles, CA",
     dates: "Jan 2026 – Present",
     points: [
-      "Designing an LLM-powered submission intake assistant for Blossom, replacing a cumbersome 15-field form with a conversational workflow that extracts structured metadata for downstream curation.",
+      "Designed a submission intake assistant for Blossom, replacing a cumbersome 15-field form with a conversational workflow that extracts structured metadata for downstream curation.",
     ],
   },
   {
@@ -91,6 +91,7 @@ const SKILLS = [
     color: "sky",
     items: [
       "Python",
+      "C++",
       "Go",
       "JavaScript/TypeScript",
       "Java",
@@ -169,12 +170,12 @@ export default function About() {
             <h1 className="text-3xl font-semibold tracking-tight">About</h1>
             <p className="text-secondary">
               My name is Andrew Stellis Wong. I am an engineer and researcher
-              building the next generation of neurotechnology. I bring five years
-              of computational research experience in the neural mechanisms of
-              memory consolidation and statistical learning, and I've led/co-led
-              the development of seven technical projects into production-ready
-              systems. Outside of work, I enjoy reading philosophy, making
-              videos and eating eggs.
+              building the next generation of neurotechnology. I bring five
+              years of computational research experience in the neural
+              mechanisms of memory consolidation and statistical learning, and
+              I've led/co-led the development of seven technical projects into
+              production-ready systems. Outside of work, I enjoy reading
+              philosophy, making videos and eating eggs.
             </p>
           </div>
           <img

@@ -23,7 +23,7 @@ export default function Home() {
       <p className="max-w-md text-lg text-secondary">
         I'm on a mission to{" "}
         <span className="font-medium text-ink underline decoration-2 underline-offset-4">
-          build better brains.
+          change the way humans interact with technology.
         </span>
       </p>
       <div className="mt-2 flex flex-wrap items-center justify-center gap-2">
