@@ -43,14 +43,32 @@ const PRINCIPLES = [
 
 function HeartIcon() {
   return (
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
       <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
     </svg>
   );
 }
 function HandsIcon() {
   return (
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
       <path d="M18 11V6a2 2 0 0 0-2-2 2 2 0 0 0-2 2" />
       <path d="M14 10V4a2 2 0 0 0-2-2 2 2 0 0 0-2 2v2" />
       <path d="M10 10.5V6a2 2 0 0 0-2-2 2 2 0 0 0-2 2v8" />
@@ -60,14 +78,32 @@ function HandsIcon() {
 }
 function SparkleIcon() {
   return (
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
       <path d="M12 2L9.5 9.5 2 12l7.5 2.5L12 22l2.5-7.5L22 12l-7.5-2.5z" />
     </svg>
   );
 }
 function OpenIcon() {
   return (
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
       <circle cx="12" cy="12" r="10" />
       <line x1="2" y1="12" x2="22" y2="12" />
       <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
@@ -76,7 +112,16 @@ function OpenIcon() {
 }
 function LeafIcon() {
   return (
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
       <path d="M2 22c1.25-1.25 2.5-2.5 3.75-3.75" />
       <path d="M17 3C7 3 3 13 3 19c3-3 6-4 9-4 5 0 9-4 9-9 0-1.14-.23-2.26-.68-3.32" />
     </svg>
@@ -154,27 +199,6 @@ function SectionLabel({ children }) {
 export default function Vision() {
   return (
     <div>
-
-      {/* ── Hero ── */}
-      <section className="py-16 text-center">
-        <h1 className="text-5xl font-semibold tracking-tight sm:text-6xl">
-          <TypedTitle />
-        </h1>
-        <Reveal delay={300}>
-          <div className="mx-auto mt-8 max-w-sm rounded-xl border border-line bg-paper p-5 text-left">
-            <div className="mb-3 flex items-baseline gap-2 border-b border-line pb-3">
-              <span className="text-sm font-medium text-ink">stel · lis way</span>
-              <span className="text-xs italic text-secondary">noun phrase</span>
-            </div>
-            <p className="text-sm leading-relaxed text-secondary">
-              a foundational principle of living that strives for excellence while being
-              grounded in benevolence; a mindset that helps us reach for the
-              stars without losing sight of the human.
-            </p>
-          </div>
-        </Reveal>
-      </section>
-
       {/* ── Core Beliefs ── */}
       <section className="mt-4">
         <SectionLabel>Core Beliefs</SectionLabel>
@@ -185,7 +209,9 @@ export default function Vision() {
                 <h3 className="text-base font-semibold tracking-tight text-ink">
                   {belief.title}
                 </h3>
-                <p className="text-sm leading-relaxed text-secondary">{belief.body}</p>
+                <p className="text-sm leading-relaxed text-secondary">
+                  {belief.body}
+                </p>
               </Card>
             </Reveal>
           ))}
@@ -206,7 +232,9 @@ export default function Vision() {
                   <h3 className="text-base font-semibold tracking-tight text-ink">
                     {p.title}
                   </h3>
-                  <p className="text-sm leading-relaxed text-secondary">{p.body}</p>
+                  <p className="text-sm leading-relaxed text-secondary">
+                    {p.body}
+                  </p>
                 </div>
               </div>
             </Reveal>
@@ -225,7 +253,6 @@ export default function Vision() {
           </div>
         </Reveal>
       </section>
-
     </div>
   );
 }
